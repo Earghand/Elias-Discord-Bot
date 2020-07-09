@@ -75,10 +75,7 @@ async def on_member_remove(member):
 @client.command(aliases=['8ball', 'test'])
 async def _8ball(ctx, *, question):
 	reponses =''
-	if (question == 'Will Elias SMASH'):
-	 	await ctx.send(f'Question: {question}\nAnswer: OF COURSE')
-	else:
-		responses = ['– It is certain.',
+	responses = ['– It is certain.',
 					'– It is decidedly so.',
 					'– Without a doubt.',
 					'– Yes – definitely',
